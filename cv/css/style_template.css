@@ -1,0 +1,181 @@
+/* General Styles */
+body {
+    margin:0;
+    padding:0;
+}
+
+/* Nav Styles */
+nav {
+    /*height:50px;*/
+    display:flex;
+    justify-content: space-between;
+    background-color: #dbcdff;
+    
+}
+
+nav p, nav a {
+   
+}
+
+nav a {
+    color: #4a486e;
+
+}
+
+nav a:hover {
+    color:#eaeaf4;
+}
+
+/* Footer Styles */
+footer {
+    display:flex;
+    height: 35px;
+    position: sticky;
+    bottom:0;
+    background-color: #9b97c3;
+    justify-content: center;
+}
+
+footer a {
+    color:#4a486e;
+    text-decoration: none;
+
+}
+
+footer a:hover {
+    color:#eaeaf4;
+
+}
+
+/* Splash Section */
+.splash {
+
+}
+
+.splash h1 {
+
+    font-family: "Baskervville SC", serif;
+    font-weight: 700;
+    color:#9b97c3
+}
+
+.splash img {
+    border-radius: 10%;
+}
+
+.splash p {
+    font-family: "Merriweather", serif;
+    font-weight: 500;
+
+}
+
+/* Horizontal Rules */
+hr {
+  border: 3px solid #b4b1f0;
+}
+
+/* Sections */
+section {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Section Headings */
+section h2 {
+    font-weight: 900;
+}
+
+/* Paragraph Styles */
+section p {
+    font-weight: 400;
+}
+
+/* link styles */
+section a {
+    color:#c9c9f0;
+    text-decoration: none;
+    font-weight: 400;
+}
+section a:hover {
+    color: #4a486e;
+}
+
+/* List Styles */
+ul {
+    font-weight: 400;
+}
+
+dl {
+    font-weight: 400;
+}
+dl dt{
+    font-weight: 700;
+}
+dl dd{
+    font-weight: 400;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap:10px;
+    grid-template-rows: auto auto auto;
+
+}
+
+.card {
+    
+    box-shadow: 0 4px 8px 0 #4a486e;
+    background-color: #e5e0f3;
+
+}
+
+.card img {
+    display:block;
+    border-radius: 5%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.card h3 {
+    padding: 10px;
+
+}
+
+/* Contact Page Styles */
+.one-col { 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea {
+    font-size: x-small;
+
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #9b97c3;
+    box-shadow: #4a486e;
+}
+
+form button {
+
+}
+
+form button:hover {
+
+}
